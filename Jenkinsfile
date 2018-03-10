@@ -13,6 +13,11 @@ pipeline {
             echo 'git'
           }
         }
+        stage('ant') {
+          steps {
+            echo 'ant'
+          }
+        }
       }
     }
     stage('test') {
