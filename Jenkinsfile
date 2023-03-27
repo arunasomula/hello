@@ -20,10 +20,10 @@ pipeline {
         }
       }
     }
-    stage('build') {
-      steps {
-        echo 'build'
-      }
-    }
+   // stage('build') {
+    //  steps {
+       // echo 'build'
+     // }
+    //}
   }
 }
